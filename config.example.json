@@ -1,0 +1,11 @@
+{
+    "gateway": "wss://gateway.discord.gg/?v=9&encoding=json",
+    "target_user_token": "23123545.324234.453345",
+    "mirror_user_token": "1231.234234.5435",
+    "target_user_status": "online",
+    "target_guild_id": "4324123123",
+    "mirror_guild_id": "53453464354353",
+    "autoMirror": true,
+    "target_channels": [],
+    "categories": {}
+}
