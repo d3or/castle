@@ -12,6 +12,9 @@ import Log from './Logging';
  * This is only used if autoMirror is true in the config
  */
 export const initServer = async () => {
+    if (!config.autoMirror) {
+        return;
+    }
     Log.info('Initializing server');
     const guild = getGuild(config.target_guild_id);
 
