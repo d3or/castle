@@ -64,6 +64,7 @@ class WebsocketManager {
      * @returns {void}
      */
     private send = (data: object): void => {
+        if (this.ws.readyState !== Websocket.OPEN) return;
         this.ws.send(JSON.stringify(data));
     };
 
